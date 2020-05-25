@@ -1,0 +1,18 @@
+let money = prompt('Ващ бюджет на месяц? Введите цифру.');
+let time = prompt ('Введите дату в формате YYYY-MM-DD');
+let Expenses = {};
+let optionalExpenses = {};
+let income = {};
+let appData = {};
+appData["budget"] = money;
+alert (appData["budget"]);
+appData["timeData"]= time;
+appData ["expenses_0"] = Expenses;
+appData["expenses_1"] = optionalExpenses;
+appData["expenses_2"] = income;
+appData['savings'] = false;
+Expenses["Ответ на первый вопрос"] = prompt ("Введите обязательную статью расходов в этом месяце!");
+Expenses ["Ответ на второй вопрос"] = prompt ("Во сколько обойдётся?");
+alert (`Ваш бюджет на день${money / 30} рублей`);
+alert (appData["timeData"]);
+// console.log (appData.budget);
