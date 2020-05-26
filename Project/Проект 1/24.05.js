@@ -11,9 +11,9 @@ let appData = {
     expenses_2: income,
     savings: false
 };
-/ appData["budget"] = money;
+// appData["budget"] = money;
 alert (appData["budget"]);
 Expenses["Ответ на первый вопрос"] = prompt ("Введите обязательную статью расходов в этом месяце!");
 Expenses ["Ответ на второй вопрос"] = prompt ("Во сколько обойдётся?");
 alert (`Ваш бюджет на день${money / 30} рублей`);
-alert (appData["timeData"]);
+// alert (appData["timeData"]);
